@@ -1,8 +1,7 @@
 import express from "express";
-import User from "../models/User";
 import {Error} from "mongoose";
 import Task from "../models/Task";
-import auth, { RequestWithUser } from '../middleware/auth';
+import auth, {RequestWithUser} from '../middleware/auth';
 
 
 const tasksRouter = express.Router();
